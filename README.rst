@@ -16,7 +16,21 @@ How To Use This Theme
 How To Modify This Theme
 ========================
 
-Loop until you're happy:
+This theme depends on the base theme ``django-organice-theme``, the asset build process will re-use resources
+from it.  Make sure you clone both repositories on the same directory level.  Your folder structure should look
+something like this::
+
+    .
+    ├── django-organice-theme
+    │   ├── organice_theme
+    │   │   ├── static
+    │   │   └── templates
+    ├── django-organice-theme-rssk
+    │   ├── organice_theme_rssk
+    │   │   ├── static
+    │   │   └── templates
+
+Then, loop until you're happy:
 
 - Add or adapt the style sheet (``.scss``), JavaScript (``.js``), and other files in ``organice_theme_rssk/static/``.
 - Run ``make assets`` in order to compile the Sass files to CSS, and combine and minify both CSS und JavaScript.
