@@ -24,7 +24,7 @@ assets: #bootstrap
 	uglifyjs -o scripts.js \
 		{../../../../django-organice-theme/organice_theme/static/js/scripts,navigation}.js
 #
-# NOTE: to add Bootstrap modules: add \ at end of line and
+# NOTE: to add Bootstrap modules: add \ at end of previous line and
 # $$BOOTSTRAP_JS_DIR/{bootstrap_module_1,bootstrap_module_2,...}.js
 
 bootstrap:

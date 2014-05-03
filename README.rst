@@ -1,5 +1,5 @@
 ==========================
-django Organice Theme RSSK
+django Organice RSSK Theme
 ==========================
 
 A `django Organice`_ theme created for Kreuzlingen Rudolf Steiner school (RSSK).
@@ -11,7 +11,12 @@ How To Use This Theme
 
     pip install django-organice-theme-rssk
 
-#. Add ``organice_theme_rssk`` to your ``INSTALLED_APPS``.
+#. Add ``organice_theme_rssk`` to your ``INSTALLED_APPS``::
+
+    'organice',
+    'organice_theme',
+    'organice_theme_rssk',
+    ...
 
 How To Modify This Theme
 ========================
