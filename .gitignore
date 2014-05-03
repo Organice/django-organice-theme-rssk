@@ -1,0 +1,16 @@
+# tools, IDEs, build folders
+/.coverage/
+/.idea/
+.sass-cache/
+/build/
+/dist/
+/*.egg-info/
+
+# Django and Python
+/static/
+/media/
+*.py[cod]
+
+# Virtualenv magic, see https://gist.github.com/bittner/8830745
+.venv
+
