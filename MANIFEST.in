@@ -2,6 +2,6 @@ include LICENSE
 include README.rst
 recursive-include */static *
 recursive-include */templates *
-prune */static/config.rb
-prune */static/js/navigation.js
-prune */static/sass
+exclude */static/config.rb
+exclude */static/js/navigation.js
+recursive-exclude */static/sass *
