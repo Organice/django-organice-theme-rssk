@@ -9,16 +9,6 @@
  * @url http://www.steinerschulekreuzlingen.com
  */
 
-$brand-primary: #008195;
-$breadcrumb-color: #5e5e5e;
-$wallpaper-light: #fff5d8;
-$wallpaper-middle: #efddac;
-$wallpaper-dark: #c7b98e;
-$body-shadow: #333333;
-$nav-bg-level-1: #cee4e7;
-$nav-bg-level-2: #eef6f7;
-$nav-bg-level-3: #f4edd4;
-
 html,
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -434,36 +424,3 @@ form {
 		color: red;
 	}
 }
-
-/* -- customized responsive behavior -- */
-/*
-@media (max-width: 825px) {
-	#header img.signet {
-		width: 22.5%;
-	}
-}
-@media (max-width: 768px) {
-	#content .side-by-side {
-		width: 100% !important;
-		float: none;
-	}
-	#content .side-by-side dl.list dd {
-		text-indent: 1em;
-	}
-}
-@media (min-width: 768px) {
-	#nav {
-		padding: 0 1.95em;
-		width: 196px;
-	}
-	#content {
-		padding-left: 0.9em;
-		padding-bottom: 1em;
-		margin-top: -1.3em;
-		width: 440px;
-	}
-	#highlights {
-		width: 180px;
-	}
-}
-*/

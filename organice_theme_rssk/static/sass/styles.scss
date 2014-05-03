@@ -2,5 +2,10 @@
 @import "variables";
 @import "bootstrap";
 
+// reuse base theme styles
+@import "../../../../django-organice-theme/organice_theme/static/sass/theme_typography";
+@import "../../../../django-organice-theme/organice_theme/static/sass/theme_cms";
+@import "../../../../django-organice-theme/organice_theme/static/sass/theme_other";
+
 // theme styles
 @import "theme_rssk2013";
