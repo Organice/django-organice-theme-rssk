@@ -4,14 +4,22 @@
 // https://github.com/twbs/bootstrap-sass/blob/master/vendor/assets/stylesheets/bootstrap/_variables.scss
 
 // Bootstrap
+$body-bg: #fff;
 $brand-primary: #008195;
 $breadcrumb-color: #5e5e5e;
+$breadcrumb-separator: '»';
+$link-color: #fc9804;
+$link-hover-color: $link-color;
 
 // RSSK theme only
 $wallpaper-light: #fff5d8;
 $wallpaper-middle: #efddac;
 $wallpaper-dark: #c7b98e;
 $body-shadow: #333333;
+$menu-color: $body-bg;
 $nav-bg-level-1: #cee4e7;
 $nav-bg-level-2: #eef6f7;
 $nav-bg-level-3: #f4edd4;
+$calendar-caption-bg: #daedf0;
+$calendar-body-bg: #bde1e5;
+$calendar-body-color: #fff;

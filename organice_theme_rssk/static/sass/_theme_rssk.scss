@@ -80,9 +80,10 @@ body {
 }
 
 #menu {
-	border-left: 1px solid #fff;
-	border-right: 1px solid #fff;
+	border-left: 1px solid $body-bg;
+	border-right: 1px solid $body-bg;
 	background-color: $brand-primary;
+	color: $menu-color;
 	height: 1.75em;
 	margin-bottom: 1.8em;
 }
@@ -91,7 +92,7 @@ body {
 #language-label:hover,
 #profile-label,
 #profile-label:hover {
-	color: #fff;
+	color: $menu-color;
 	text-decoration: none;
 	padding: 0.7em;
 }
@@ -114,7 +115,7 @@ ul.dropdown-menu {
 #nav li {
 	background-color: $nav-bg-level-1;
 	text-indent: 1.25em;
-	border-top: 1px solid #fff;
+	border-top: 1px solid $body-bg;
 
 	ul li {
 		background-color: $nav-bg-level-2;
@@ -139,16 +140,12 @@ ul.dropdown-menu {
 }
 
 .breadcrumb {
+	background-color: inherit;
 	margin: -0.2em 0 0 -2.4em;
-	> li {
-		+ li:before {
-			content: "#{$breadcrumb-separator}"; // remove Bootstrap's trailing Unicode space
-		}
+
+	a {
+		color: $breadcrumb-color;
 	}
-}
-.breadcrumb,
-.breadcrumb a {
-	color: $breadcrumb-color;
 }
 
 #content {
@@ -201,7 +198,7 @@ ul.dropdown-menu {
 
 	caption {
 		padding: 4px;
-		background-color: #daedf0;
+		background-color: $calendar-caption-bg;
 		color: $brand-primary;
 	}
 
@@ -214,13 +211,13 @@ ul.dropdown-menu {
 	table {
 		width: 100%;
 		border-spacing: 1px;
-		background-color: #daedf0;
+		background-color: $calendar-caption-bg;
 
 		td {
 			text-align: center;
 			vertical-align: middle;
-			background-color: #bde1e5;
-			color: #fff;
+			background-color: $calendar-body-bg;
+			color: $calendar-body-color;
 
 			a,
 			a:visited {
@@ -231,7 +228,7 @@ ul.dropdown-menu {
 
 			&.today,
 			&.today a {
-				color: #fff;
+				color: $calendar-body-color;
 				background-color: $brand-primary;
 			}
 
@@ -249,7 +246,7 @@ ul.dropdown-menu {
 
 h1,
 h2 {
-	color: #fc9804;
+	color: $link-color;
 	font-weight: normal;
 }
 
