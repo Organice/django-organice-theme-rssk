@@ -9,3 +9,7 @@
 {{ block.super }}
 </div>
 {% endblock body %}
+
+{% block nav %}{% spaceless %}
+	{% show_menu 0 100 100 100 %}{# complete nested navigation #}
+{% endspaceless %}{% endblock nav %}
