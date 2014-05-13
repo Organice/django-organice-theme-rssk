@@ -105,10 +105,6 @@ ul.dropdown-menu {
 	margin: 0;
 }
 
-#nav,
-#nav ul {
-	list-style-type: none;
-}
 #nav ul {
 	padding: 0;
 }
@@ -197,7 +193,6 @@ ul.dropdown-menu {
 	}
 
 	caption {
-		padding: 4px;
 		background-color: $calendar-caption-bg;
 		color: $brand-primary;
 	}
@@ -209,13 +204,9 @@ ul.dropdown-menu {
 	}
 
 	table {
-		width: 100%;
-		border-spacing: 1px;
 		background-color: $calendar-caption-bg;
 
 		td {
-			text-align: center;
-			vertical-align: middle;
 			background-color: $calendar-body-bg;
 			color: $calendar-body-color;
 
@@ -235,10 +226,6 @@ ul.dropdown-menu {
 			&.future,
 			&.future a {
 				color: $brand-primary;
-			}
-
-			&.event {
-				border: 1px solid $brand-primary;
 			}
 		}
 	}

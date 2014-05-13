@@ -1,5 +1,5 @@
 {% extends "organice_theme:base.html" %}
-{% load staticfiles %}
+{% load staticfiles menu_tags %}
 
 {% block theme_css %}{% static 'css/styles.css' %}{% endblock theme_css %}
 {% block theme_js %}{% static 'js/scripts.js' %}{% endblock theme_js %}
@@ -10,6 +10,7 @@
 </div>
 {% endblock body %}
 
+{# print out complete nested navigation (used by JavaScript later) #}
 {% block nav %}{% spaceless %}
-	{% show_menu 0 100 100 100 %}{# complete nested navigation #}
+	{% show_menu 0 100 100 100 %}
 {% endspaceless %}{% endblock nav %}

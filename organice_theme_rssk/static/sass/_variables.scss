@@ -3,6 +3,9 @@
 // - For complete list of Bootstrap variables and documentation see:
 // https://github.com/twbs/bootstrap-sass/blob/master/vendor/assets/stylesheets/bootstrap/_variables.scss
 
+// base theme variables
+@import "../../../../django-organice-theme/organice_theme/static/sass/variables";
+
 // Bootstrap
 $body-bg: #fff;
 $brand-primary: #008195;
@@ -11,7 +14,7 @@ $breadcrumb-separator: '»';
 $link-color: #fc9804;
 $link-hover-color: $link-color;
 
-// RSSK theme only
+// theme specific
 $wallpaper-light: #fff5d8;
 $wallpaper-middle: #efddac;
 $wallpaper-dark: #c7b98e;
