@@ -21,7 +21,7 @@ How To Use This Theme
 How To Modify This Theme
 ========================
 
-This theme depends on the base theme ``django-organice-theme``, the asset build process will re-use resources
+This theme depends on the base theme `django-organice-theme`_, the asset build process will re-use resources
 from it.  Make sure you clone both repositories on the same directory level.  Your folder structure should look
 something like this::
 
@@ -64,6 +64,7 @@ Getting Help
 
 
 .. _`django Organice`: http://organice.io/
+.. _`django-organice-theme`: https://pypi.python.org/pypi/django-organice-theme
 .. _StackOverflow: http://stackoverflow.com/questions/tagged/django-organice
 .. _Bitbucket: https://bitbucket.org/bittner/django-organice-theme-rssk/issues
 .. _GitHub: https://github.com/bittner/django-organice-theme-rssk/issues
