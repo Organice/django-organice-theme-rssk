@@ -30,17 +30,7 @@ assets: #bootstrap
 # $$BOOTSTRAP_JS_DIR/{bootstrap_module_1,bootstrap_module_2,...}.js
 
 bootstrap:
-	@echo "Updating your system-wide bootstrap-sass installation... (may require your password)"
-	gem list &> /dev/null || sudo apt-get install -y ruby
-	yes | sudo gem uninstall sass sass-css-importer compass bootstrap-sass
-	sudo gem install compass bootstrap-sass --no-rdoc --no-ri
-	sudo gem install --pre sass-css-importer --no-rdoc --no-ri
-	@gem list
-	@echo
-	@echo "Updating uglify-js v2 for Bootstrap JavaScript minification... (may require your password)"
-	npm list &> /dev/null || sudo apt-get install -y npm
-	sudo npm uninstall -g uglify-js
-	sudo npm install -g uglify-js
+	$(MAKE) -C ../django-organice-theme bootstrap
 
 bumpver:
 	@echo "Not implemented yet. Install pypi package instead: \`pip install bumpversion'"
