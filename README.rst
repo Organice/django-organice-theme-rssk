@@ -2,6 +2,8 @@
 django Organice RSSK Theme
 ==========================
 
+|latest-version| |downloads| |license|
+
 A `django Organice`_ theme created for Kreuzlingen Rudolf Steiner school (RSSK).
 
 How To Use This Theme
@@ -63,6 +65,15 @@ Getting Help
 - Found a bug? Please use either the Bitbucket_ or GitHub_ issue tracker (you choose)
 
 
+.. |latest-version| image:: https://img.shields.io/pypi/v/django-organice-theme-rssk.svg
+   :alt: Latest version on PyPI
+   :target: https://pypi.python.org/pypi/django-organice-theme-rssk
+.. |downloads| image:: https://img.shields.io/pypi/dm/django-organice-theme-rssk.svg
+   :alt: Monthly downloads from PyPI
+   :target: https://pypi.python.org/pypi/django-organice-theme-rssk
+.. |license| image:: https://img.shields.io/pypi/l/django-organice-theme-rssk.svg
+   :alt: Software license
+   :target: https://www.apache.org/licenses/LICENSE-2.0.html
 .. _`django Organice`: http://organice.io/
 .. _`django-organice-theme`: https://pypi.python.org/pypi/django-organice-theme
 .. _StackOverflow: http://stackoverflow.com/questions/tagged/django-organice
